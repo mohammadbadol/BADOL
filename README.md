@@ -63,7 +63,7 @@ MCS-BOT/
 │   └── Event/           # Event files
 ├── MCS-Config/          
 │   └── config.js        # Token & ID Configuration
-├── main.js              # Entry File
+├── index.js              # Entry File
 └── package.json         # Dependencies
 ```
 
@@ -90,7 +90,7 @@ module.exports = {
 
 - GitHub রিপোজিটরি কানেক্ট করুন  
 - **Build Command:** `npm install`  
-- **Start Command:** `node main.js`  
+- **Start Command:** `node index.js`  
 - **Environment:** Port 8080 Default  
 
 ---
@@ -135,5 +135,25 @@ Core system components may be based on licensed premium resources.
 কোনো অবৈধ কাজে এটি ব্যবহার করা হলে ডেভেলপার দায়ী থাকবে না।
 
 ---
+
+## 🛠️ Command Creation Guide (New System)
+
+আপনার বটের জন্য নতুন কমান্ড তৈরি করতে নিচের স্ট্রাকচারটি ফলো করুন:
+
+\`\`\`javascript
+module.exports.config = {
+    name: "example",
+    credits: "MOHAMMAD-BADOL",
+    aliases: ["ex"],
+    prefix: true,
+    permission: 0,
+    description: "Command description here.",
+    tags: ["example"]
+};
+
+module.exports.run = async (bot, msg, args) => {
+    bot.sendMessage(msg.chat.id, "Hello! This is working.");
+};
+\`\`\`
 
 ⭐ If you like this project, consider giving it a star!
