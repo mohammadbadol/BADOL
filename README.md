@@ -65,3 +65,31 @@ MCS-BOT/
 │   └── config.js        # Token & ID Configuration
 ├── main.js              # Entry File
 └── package.json         # Dependencies
+⚙️ Configuration Setup
+​আপনার MCS-Config/config.js ফাইলটি নিচের মতো করে সাজানো আছে:
+​[!CAUTION]
+CRITICAL WARNING: ওনার আইডি 6954597258 পরিবর্তন করবেন না। এটি বটের সিকিউরিটি এবং অথেনটিকেশনের জন্য লক করা। যদি এটি পরিবর্তন করা হয়, তবে বটের কোর ইঞ্জিন (Security Module) কাজ করা বন্ধ করে দেবে।
+​🚀 Deployment Guide
+​আপনার বটটি ২৪/৭ অনলাইনে রাখার জন্য নিচের ধাপগুলো অনুসরণ করুন:
+​☁️ Method 1: Deploy on Render / Heroku
+​আপনার GitHub রিপোজিটরি কানেক্ট করুন।
+​Build Command: npm install
+​Start Command: node main.js
+​Environment: পোর্ট 8080 ডিফল্টভাবে সেট করা আছে।
+​💻 Method 2: Local Hosting (PC/VPS)
+git clone [https://github.com/YourUsername/MCS-BOT.git](https://github.com/YourUsername/MCS-BOT.git)
+cd MCS-BOT
+npm install
+node main.js
+🛡️ Developer & Owner Information
+Contact Method Link
+👤 Owner Name Mohammad Badol
+📱 WhatsApp +8801782721761
+🔵 Facebook m.me/B4D9L Official
+✈️ Telegram B4D9L_007
+🆔 Critical ID 6954597258
+📝 License & Credit
+​Developer: Mohammad Badol
+​Project Name: MCS BOT PROJECT
+​Copyright: © 2026 MCS BOT PROJECT. All rights reserved.
+​Disclaimer: এই বটটি শুধুমাত্র শিক্ষা এবং বিনোদনের উদ্দেশ্যে তৈরি। কোনো অবৈধ কাজে এটি ব্যবহার করা হলে ডেভেলপার দায়ী থাকবে না।
