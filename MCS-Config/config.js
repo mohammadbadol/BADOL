@@ -1,4 +1,4 @@
-Module.exports = {
+module.exports = {
   BOT_TOKEN: "YOUR-BOT-TOKEN-HERE",
 
   BOT_SETTINGS: {
